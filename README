@@ -1,0 +1,45 @@
+# Rush02 – Vérificateur de Nombre Premier et Calculatrice en C
+
+## Thème choisi :
+**Application Multifonctionnelle**.
+
+---
+
+## Membres ayant participé :
+- **Rafiatou_SH** : Vérification de nombre premier  
+- **Mahamadou_Amine_MS** : Calculatrice  
+- **Abbas_IM** : Menu principal, intégration des fonctions, gestion des bugs  
+
+---
+
+## Objectifs pédagogiques :
+- Maîtriser les **bases du langage C** : fonctions, conditions, boucles, gestion des entrées utilisateur.
+- Comprendre et appliquer les principes de la **programmation modulaire**.
+- Développer la capacité à **écrire un code clair, robuste et bien documenté**.
+- Apprendre à **travailler en équipe** : répartition des tâches, communication, et respect des délais.
+- (Prévu dans les objectifs futurs) Apprendre à **manipuler des fichiers** : lecture, écriture, modification (non implémenté dans ce rush).
+
+---
+
+## Fonctionnalités :
+
+### 1. Vérificateur de nombre premier
+- Permet de saisir un ou plusieurs entiers.
+- Vérifie si chaque nombre est premier.
+- Interface interactive avec gestion des erreurs de saisie.
+
+### 2. Calculatrice simple
+- Prend en charge les opérations : addition, soustraction, multiplication, division et modulo.
+- Vérifie les erreurs (division par zéro, opérateur invalide, etc.).
+
+### 3. Menu principal
+- Permet de choisir l'une des deux fonctionnalités ou de quitter le programme.
+- Gère les erreurs de choix utilisateur.
+
+---
+
+## Compilation et exécution :
+
+### Compilation :
+```bash
+gcc r01.c -o r01
