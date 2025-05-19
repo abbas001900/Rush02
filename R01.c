@@ -5,6 +5,10 @@
 #include <math.h>
 #include <ctype.h>
 
+// Déclarations des fonctions
+void calculatrice(void);
+void verifier_nombre_premier(void);
+
 // Menu principal
 void menu() {
     int choix;
@@ -144,3 +148,4 @@ int main() {
     menu();
     return 0;
 }
+
